@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import { Counter } from './features/Counter';
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
@@ -50,7 +51,10 @@ function App() {
             React Redux
           </a>
         </span>
-      </header>
+      </header> */}
+
+      {/* <h1>Welcome to discord clone</h1> */}
+    <Sidebar/>
     </div>
   );
 }
