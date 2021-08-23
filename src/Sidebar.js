@@ -49,7 +49,7 @@ function Sidebar() {
                 <Avatar/>
                 <div className="sidebar__ProfileInfo">
                     <h3>@iBlaz</h3>
-                    <p>#this is my id</p>
+                    <p>#thismyid</p>
                 </div>
                 <div className="sidebar__ProfileIcons">
                     <MicIcon/>
